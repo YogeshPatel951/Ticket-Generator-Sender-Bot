@@ -1,0 +1,25 @@
+Hello,
+watcha Doin, I'm Gonna do some deductions now
+Lemme, Get your personal Data now
+
+
+Name: {{data[0]}}
+DOB:  {{data[1]}}
+email:{{data[2]}}
+city: {{data[3]}}
+phone:{{data[4]}}
+
+
+
+That was a Very Bad Deductions,
+Let me get straight to the point
+
+{% if status=='paid' %}
+Your seat is confirmed for the workshop,
+Let's BUild Something Great Together
+{% else %}
+
+we didn't received yout payment,
+Buddy you are lacking behind something awesome
+Make sure to complete your payment
+{% endif %}
